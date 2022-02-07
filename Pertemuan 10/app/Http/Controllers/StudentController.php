@@ -19,7 +19,7 @@ class StudentController extends Controller
         $data['departement'] = ["S1 RPL", "S1 Informatika", "S1 Sistem Informasi"];
         return view('StudentTambah', $data);
     }
-
+    
     public function store()
     {
         $student = new Student;
@@ -38,7 +38,7 @@ class StudentController extends Controller
         $data['student'] = Student::find($id);
         $data['gender'] = ["L", "P"];
         $data['departement'] = ["S1 RPL", "S1 Informatika", "S1 Sistem Informasi"];
-
+        
         return view('StudentEdit', $data);
     }
 
