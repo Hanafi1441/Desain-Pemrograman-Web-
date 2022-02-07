@@ -1,0 +1,37 @@
+body {
+    background-color:white;
+}
+
+.bar{
+    font-size: 20px;
+    width :1100px;
+    background-color:saddlebrown;
+    margin: auto;
+    padding: 16px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   
+}
+
+
+.konten {
+    width: 1100px;
+    background-color:black;
+    margin: auto;
+    padding: 16px;
+    color: white;
+  
+}
+.Deskripsi {
+    text-align: center;
+}
+
+.identity {
+   background-color: white; 
+   color: saddlebrown;
+
+   text-align: center;
+   padding: 10px;
+}
+
